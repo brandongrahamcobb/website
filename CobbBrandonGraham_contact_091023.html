@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BGC | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Contact</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <p>If you would like to get in touch with me, here is my contact information:</p>
+            
+            <ul>
+                <li>Email: <a href="mailto:brandongrahamcobb@icloud.com">brandongrahamcobb@icloud.com</a></li>
+                <li>Phone: +1 (810) 853-8535</li>
+                <li>Address: 123 Main Street, City, State, Zip Code</li>
+            </ul>
+            
+            <h2>Contact Form</h2>
+            <p>You can also reach out to me by filling out the contact form below:</p>
+            
+            <form action="process_contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Brandon Graham Cobb</p>
+    </footer>
+</body>
+</html>
